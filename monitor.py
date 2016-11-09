@@ -52,16 +52,16 @@ def parseLine(logfile):
 			global GLOBAL_TOTAL
 			GLOBAL_TOTAL += 1
 			message = """
-	##########################################
-	##			SERVER ALERT				##
-	##										##
-	##received: {date:%Y-%m-%d %H:%M:%S.%f} ##
-	##total_alerts: {total:7d}				##
-	##Log Name: {log}        				##
-	##total_alerts: {total:7d}				##
-	##########################################
-	#The Log Error is {msg}""". format(date=incidentTime,total=GLOBAL_TOTAL, log = logName, msg=errorMessage)
-			send_email(message)
+	#######################################################
+	##SERVER ALERT
+	##	
+	##Received: {date:%Y-%m-%d %H:%M:%S.%f}
+	##Total Alerts: {total:7d}
+	##Log Name: {log}
+	##
+	##
+	##The Log Error is {msg}""". format(date=incidentTime,total=GLOBAL_TOTAL, log = logName, msg=errorMessage)
+		send_email(message)
 
 			
 if __name__ == "__main__":
