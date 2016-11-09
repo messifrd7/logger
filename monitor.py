@@ -61,7 +61,7 @@ def parseLine(logfile):
 	##
 	##
 	##The Log Error is {msg}""". format(date=incidentTime,total=GLOBAL_TOTAL, log = logName, msg=errorMessage)
-		send_email(message)
+			send_email(message)
 
 			
 if __name__ == "__main__":
