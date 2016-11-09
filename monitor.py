@@ -1,6 +1,8 @@
 """ monitor.py
 Monitoring Application for Application's log file.
-Log file is written to in append-only fashion. """
+Log file is written to in append-only fashion. 
+@author: Shreyas Moudgalya{shreyas@hawk.iit.edu}
+"""
 
 from argparse import ArgumentParser
 from datetime import datetime
@@ -52,15 +54,12 @@ def parseLine(logfile):
 			global GLOBAL_TOTAL
 			GLOBAL_TOTAL += 1
 			message = """
-	##########################################
-	##			SERVER ALERT				##
-	##										##
-	##received: {date:%Y-%m-%d %H:%M:%S.%f} ##
-	##total_alerts: {total:7d}				##
-	##Log Name: {log}        				##
-	##total_alerts: {total:7d}				##
-	##########################################
-	#The Log Error is {msg}""". format(date=incidentTime,total=GLOBAL_TOTAL, log = logName, msg=errorMessage)
+	##SERVER ALERT
+	##Received: {date:%Y-%m-%d %H:%M:%S.%f}
+	##Total Alerts: {total:7d}
+	##Log Name: {log}
+	##total_alerts: {total:7d}
+	##The Log Error is {msg}""". format(date=incidentTime,total=GLOBAL_TOTAL, log = logName, msg=errorMessage)
 			send_email(message)
 
 			

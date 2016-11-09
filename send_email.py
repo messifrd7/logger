@@ -1,6 +1,7 @@
 """
 send_email implementation
 Sends an email with the provided msg
+@author: Shreyas Moudgalya{shreyas@hawk.iit.edu}
 """
 
 from datetime import datetime
@@ -9,12 +10,21 @@ from email.mime.text import MIMEText
 
 def send_email(msg):
 	
-	sender = 'from@fromdomain.com'
-	receivers = ['to@todomain.com']
+	sender = 'smoudgal@hawk.iit.edu'
+	receivers = ['shreyas@hawk.iit.edu']
+	host = 'smtp.gmail.com'
+	port = 587
+	user = None
+	password = None
 
+	smtpObject = smtplib.SMTP(host,port)
+	server.starttls() 
+    #Check if user and password defined 
+    if user and password: 
+		server.login(user, password) 
+	
 	try:
-		smtpObject = smtplib.SMTP('localhost')
-		#smtpObject = smtplib.SMTP('mail.your-domain.com', 25)    #If you are not running an SMTP server on your local machine
+		#smtpObject = smtplib.SMTP('localhost') #If there is a localhost SMTP Server
 		smtpObject.sendmail(sender, receivers, message)
 		print "Successfully sent email"
 	except SMTPException:

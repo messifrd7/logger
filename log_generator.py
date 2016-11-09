@@ -1,5 +1,6 @@
 """
 python3 log_generator.py
+@author: Shreyas Moudgalya{shreyas@hawk.iit.edu}
 """
 
 import random
