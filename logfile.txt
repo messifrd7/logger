@@ -1,0 +1,5 @@
+[2016-11-10 18:02:46,219][asyncio][DEBUG]Using selector: EpollSelector
+[2016-11-10 18:02:46,220][parrot][ERROR]1
+[2016-11-10 18:02:46,220][raid_sprayer][DEBUG]I'm debugging something, I've used 000000001 cans of RAID
+[2016-11-10 18:02:46,220][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 18:02:54,770][raid_sprayer][DEBUG]I'm debugging something, I've used 000000002 cans of RAID
