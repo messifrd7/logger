@@ -11,26 +11,29 @@ import smtplib
 def send_email(msg):
 	
 	sender = 'shreyasmoudgalya064@gmail.com'
-	receivers = 'shreyas@hawk.iit.edu'
+	receivers = 'tprasad@hawk.iit.edu' #Make as list if multiple
 	host = 'smtp.gmail.com'
 	port = 587
 	user = 'shreyasmoudgalya064'
 	password = 'ShrMoud123'
 
 	server = smtplib.SMTP(host,port)
-	#server = smtplib.SMTP('smtp.gmail.com:587')
 	server.ehlo()
 	server.starttls() 
-	#Check if user and password defined 
-	#if user and password: 
-	server.login(user, password) 
 	
+
 	try:
-		#server = smtplib.SMTP('localhost') #If there is a localhost SMTP Server
-		server.sendmail(sender, receivers, message)
+		if user and password: 
+			server.login(user, password) 
+	except Exception as e:
+		print("Unable to Login")
+
+
+	try:
+		server.sendmail(sender,receivers,msg)
 		print ("Successfully sent email")
-	#except SMTPException as smtpE:
 	except Exception as smtpE:
 		print ("Error: unable to send email")
+
 	server.close()
 
