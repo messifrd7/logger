@@ -21,7 +21,7 @@ def main():
 	try:
 		logfile = open("logfile.txt", "r")
 		#print "Name of the file: ", logfile.name
-	except Exception e:
+	except Exception as e:
 		print(str(e))
 
 	parseLine(logfile)

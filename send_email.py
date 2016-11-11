@@ -19,13 +19,13 @@ def send_email(msg):
 
 	smtpObject = smtplib.SMTP(host,port)
 	server.starttls() 
-    #Check if user and password defined 
-    if user and password: 
+	#Check if user and password defined 
+	if user and password: 
 		server.login(user, password) 
 	
 	try:
 		#smtpObject = smtplib.SMTP('localhost') #If there is a localhost SMTP Server
 		smtpObject.sendmail(sender, receivers, message)
-		print "Successfully sent email"
+		print ("Successfully sent email")
 	except SMTPException:
-		print "Error: unable to send email"
+		print ("Error: unable to send email")
