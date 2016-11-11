@@ -22,7 +22,7 @@ def heartbeat_log_lines():
 	log = logging.getLogger("heartbeat")
 	
 	while True:
-		log.infor("HEARTBEAT last_module=%s",modules[random.randrange(len(modules)]))
+		log.info("HEARTBEAT last_module=%s",modules[random.randrange(len(modules))])
 		yield from asyncio.sleep(10.0)
 		
 @coroutine
@@ -34,7 +34,7 @@ def bursty_log_lines():
 	while True:
 		cans +=1
 		log.debug("I'm debugging something, I've used %09d cans of RAID", cans)
-		yeild from asyncio.sleep(random.betavariate(5,1) * 10)
+		yield from asyncio.sleep(random.betavariate(5,1) * 10)
 	
 		
 @coroutine
@@ -45,7 +45,7 @@ def warning_log_lines():
 	while True:
 		log = logging.getLogger(modules[random.randrange(len(modules))])
 		log.warnings(random.randrange(len(warnings)))
-		yeild from asyncio.sleep(random.uniform(5,37))
+		yield from asyncio.sleep(random.uniform(5,37))
 	
 
 @coroutine
@@ -55,12 +55,12 @@ def error_log_lines():
 	while True:
 		log = logging.getLogger(modules[random.randrange(len(modules))])
 		log.error("%s",random.randrange(len(errors)))
-		yeild from asyncio.sleep(random.uniform(9,300))
+		yield from asyncio.sleep(random.uniform(9,300))
 
 
 def main():
 	p=ArgumentParser()
-	p.addArgument("log_file",help="file to write application logs to")
+	p.add_argument("log_file",help="file to write application logs to")
 	args = p.parse_args()
 	
 	random.seed()
@@ -70,7 +70,7 @@ def main():
 	out = logging.FileHandler(args.log_file)
 	out.setLevel(logging.DEBUG)
 	
-	fmt = logging.Formatter("[%(asctime)s][%(name)s][%(levelname)s]%(messgae)s")
+	fmt = logging.Formatter("[%(asctime)s][%(name)s][%(levelname)s]%(message)s")
 	
 	out.setFormatter(fmt)
 	log.addHandler(out)
