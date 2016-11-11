@@ -44,7 +44,7 @@ def warning_log_lines():
 	
 	while True:
 		log = logging.getLogger(modules[random.randrange(len(modules))])
-		log.warnings(random.randrange(len(warnings)))
+		log.warnings("%s",warnings[random.randrange(len(warnings))])
 		yield from asyncio.sleep(random.uniform(5,37))
 	
 
@@ -54,7 +54,7 @@ def error_log_lines():
 	
 	while True:
 		log = logging.getLogger(modules[random.randrange(len(modules))])
-		log.error("%s",random.randrange(len(errors)))
+		log.error("%s",errors[random.randrange(len(errors))])
 		yield from asyncio.sleep(random.uniform(9,300))
 
 
