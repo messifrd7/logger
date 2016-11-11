@@ -10,12 +10,12 @@ import smtplib
 
 def send_email(msg):
 	
-	sender = 'shreyasmoudgalya064@gmail.com'
-	receivers = 'tprasad@hawk.iit.edu' #Make as list if multiple
+	sender = 'sampleakuna@gmail.com'
+	receivers = 'smoudgal@hawk.iit.edu' #Make as list if multiple
 	host = 'smtp.gmail.com'
 	port = 587
-	user = 'shreyasmoudgalya064'
-	password = 'ShrMoud123'
+	user = 'sampleakuna'
+	password = 'sampleapp'
 
 	server = smtplib.SMTP(host,port)
 	server.ehlo()
