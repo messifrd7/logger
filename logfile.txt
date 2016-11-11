@@ -1,13 +1,102 @@
-[2016-11-10 18:47:42,148][asyncio][DEBUG]Using selector: EpollSelector
-[2016-11-10 18:47:42,149][heartbeat][INFO]HEARTBEAT last_module=parrot
-[2016-11-10 18:47:42,149][raid_sprayer][DEBUG]I'm debugging something, I've used 000000001 cans of RAID
-[2016-11-10 18:47:42,149][monkey][ERROR]0
-[2016-11-10 18:47:49,718][raid_sprayer][DEBUG]I'm debugging something, I've used 000000002 cans of RAID
-[2016-11-10 18:47:52,152][heartbeat][INFO]HEARTBEAT last_module=shoes
-[2016-11-10 18:47:57,977][raid_sprayer][DEBUG]I'm debugging something, I've used 000000003 cans of RAID
-[2016-11-10 18:48:02,157][heartbeat][INFO]HEARTBEAT last_module=shoes
-[2016-11-10 18:48:07,970][raid_sprayer][DEBUG]I'm debugging something, I've used 000000004 cans of RAID
-[2016-11-10 18:48:12,163][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
-[2016-11-10 18:48:17,148][raid_sprayer][DEBUG]I'm debugging something, I've used 000000005 cans of RAID
-[2016-11-10 18:48:22,169][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
-[2016-11-10 18:48:22,780][raid_sprayer][DEBUG]I'm debugging something, I've used 000000006 cans of RAID
+[2016-11-10 21:49:48,259][asyncio][DEBUG]Using selector: EpollSelector
+[2016-11-10 21:49:48,260][raid_sprayer][DEBUG]I'm debugging something, I've used 000000001 cans of RAID
+[2016-11-10 21:49:48,260][heartbeat][INFO]HEARTBEAT last_module=parrot
+[2016-11-10 21:49:48,260][shoes][ERROR]1
+[2016-11-10 21:49:51,412][raid_sprayer][DEBUG]I'm debugging something, I've used 000000002 cans of RAID
+[2016-11-10 21:49:58,268][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:50:01,100][raid_sprayer][DEBUG]I'm debugging something, I've used 000000003 cans of RAID
+[2016-11-10 21:50:08,277][heartbeat][INFO]HEARTBEAT last_module=parrot
+[2016-11-10 21:50:09,646][raid_sprayer][DEBUG]I'm debugging something, I've used 000000004 cans of RAID
+[2016-11-10 21:50:18,287][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:50:18,434][raid_sprayer][DEBUG]I'm debugging something, I've used 000000005 cans of RAID
+[2016-11-10 21:50:26,378][raid_sprayer][DEBUG]I'm debugging something, I've used 000000006 cans of RAID
+[2016-11-10 21:50:28,290][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:50:35,118][raid_sprayer][DEBUG]I'm debugging something, I've used 000000007 cans of RAID
+[2016-11-10 21:50:38,294][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:50:43,982][raid_sprayer][DEBUG]I'm debugging something, I've used 000000008 cans of RAID
+[2016-11-10 21:50:48,299][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:50:53,742][raid_sprayer][DEBUG]I'm debugging something, I've used 000000009 cans of RAID
+[2016-11-10 21:50:58,304][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:51:03,239][raid_sprayer][DEBUG]I'm debugging something, I've used 000000010 cans of RAID
+[2016-11-10 21:51:08,309][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:51:13,203][raid_sprayer][DEBUG]I'm debugging something, I've used 000000011 cans of RAID
+[2016-11-10 21:51:18,315][heartbeat][INFO]HEARTBEAT last_module=muscle_car
+[2016-11-10 21:51:21,111][raid_sprayer][DEBUG]I'm debugging something, I've used 000000012 cans of RAID
+[2016-11-10 21:51:28,323][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 21:51:30,717][raid_sprayer][DEBUG]I'm debugging something, I've used 000000013 cans of RAID
+[2016-11-10 21:51:36,875][raid_sprayer][DEBUG]I'm debugging something, I've used 000000014 cans of RAID
+[2016-11-10 21:51:38,326][heartbeat][INFO]HEARTBEAT last_module=parrot
+[2016-11-10 21:51:43,092][raid_sprayer][DEBUG]I'm debugging something, I've used 000000015 cans of RAID
+[2016-11-10 21:51:48,332][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:51:50,248][raid_sprayer][DEBUG]I'm debugging something, I've used 000000016 cans of RAID
+[2016-11-10 21:51:58,343][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:51:59,780][raid_sprayer][DEBUG]I'm debugging something, I've used 000000017 cans of RAID
+[2016-11-10 21:52:07,638][raid_sprayer][DEBUG]I'm debugging something, I've used 000000018 cans of RAID
+[2016-11-10 21:52:08,344][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:52:17,083][raid_sprayer][DEBUG]I'm debugging something, I've used 000000019 cans of RAID
+[2016-11-10 21:52:18,347][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:52:27,050][raid_sprayer][DEBUG]I'm debugging something, I've used 000000020 cans of RAID
+[2016-11-10 21:52:28,349][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:52:36,119][raid_sprayer][DEBUG]I'm debugging something, I've used 000000021 cans of RAID
+[2016-11-10 21:52:38,352][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:52:43,835][raid_sprayer][DEBUG]I'm debugging something, I've used 000000022 cans of RAID
+[2016-11-10 21:52:48,358][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:52:53,575][raid_sprayer][DEBUG]I'm debugging something, I've used 000000023 cans of RAID
+[2016-11-10 21:52:58,364][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:53:03,172][raid_sprayer][DEBUG]I'm debugging something, I've used 000000024 cans of RAID
+[2016-11-10 21:53:08,370][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:53:12,290][raid_sprayer][DEBUG]I'm debugging something, I've used 000000025 cans of RAID
+[2016-11-10 21:53:18,082][raid_sprayer][DEBUG]I'm debugging something, I've used 000000026 cans of RAID
+[2016-11-10 21:53:18,371][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 21:53:27,252][raid_sprayer][DEBUG]I'm debugging something, I've used 000000027 cans of RAID
+[2016-11-10 21:53:28,373][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:53:34,151][raid_sprayer][DEBUG]I'm debugging something, I've used 000000028 cans of RAID
+[2016-11-10 21:53:38,378][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:53:40,975][raid_sprayer][DEBUG]I'm debugging something, I've used 000000029 cans of RAID
+[2016-11-10 21:53:48,387][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:53:50,710][raid_sprayer][DEBUG]I'm debugging something, I've used 000000030 cans of RAID
+[2016-11-10 21:53:58,397][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:53:58,683][raid_sprayer][DEBUG]I'm debugging something, I've used 000000031 cans of RAID
+[2016-11-10 21:54:07,296][muscle_car][ERROR]1
+[2016-11-10 21:54:07,369][raid_sprayer][DEBUG]I'm debugging something, I've used 000000032 cans of RAID
+[2016-11-10 21:54:08,399][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 21:54:12,013][raid_sprayer][DEBUG]I'm debugging something, I've used 000000033 cans of RAID
+[2016-11-10 21:54:18,406][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:54:20,449][raid_sprayer][DEBUG]I'm debugging something, I've used 000000034 cans of RAID
+[2016-11-10 21:54:25,032][monkey][ERROR]2
+[2016-11-10 21:54:28,410][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:54:30,059][raid_sprayer][DEBUG]I'm debugging something, I've used 000000035 cans of RAID
+[2016-11-10 21:54:38,419][heartbeat][INFO]HEARTBEAT last_module=parrot
+[2016-11-10 21:54:39,319][raid_sprayer][DEBUG]I'm debugging something, I've used 000000036 cans of RAID
+[2016-11-10 21:54:46,340][raid_sprayer][DEBUG]I'm debugging something, I've used 000000037 cans of RAID
+[2016-11-10 21:54:48,423][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:54:54,908][raid_sprayer][DEBUG]I'm debugging something, I've used 000000038 cans of RAID
+[2016-11-10 21:54:58,427][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:55:02,209][raid_sprayer][DEBUG]I'm debugging something, I've used 000000039 cans of RAID
+[2016-11-10 21:55:08,434][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:55:11,898][raid_sprayer][DEBUG]I'm debugging something, I've used 000000040 cans of RAID
+[2016-11-10 21:55:18,268][raid_sprayer][DEBUG]I'm debugging something, I've used 000000041 cans of RAID
+[2016-11-10 21:55:18,436][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:55:26,636][raid_sprayer][DEBUG]I'm debugging something, I've used 000000042 cans of RAID
+[2016-11-10 21:55:28,439][heartbeat][INFO]HEARTBEAT last_module=muscle_car
+[2016-11-10 21:55:35,922][raid_sprayer][DEBUG]I'm debugging something, I've used 000000043 cans of RAID
+[2016-11-10 21:55:38,442][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:55:42,009][raid_sprayer][DEBUG]I'm debugging something, I've used 000000044 cans of RAID
+[2016-11-10 21:55:48,449][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 21:55:49,882][raid_sprayer][DEBUG]I'm debugging something, I've used 000000045 cans of RAID
+[2016-11-10 21:55:55,327][raid_sprayer][DEBUG]I'm debugging something, I've used 000000046 cans of RAID
+[2016-11-10 21:55:58,453][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 21:56:04,878][raid_sprayer][DEBUG]I'm debugging something, I've used 000000047 cans of RAID
+[2016-11-10 21:56:08,457][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 21:56:13,957][raid_sprayer][DEBUG]I'm debugging something, I've used 000000048 cans of RAID
+[2016-11-10 21:56:18,462][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 21:56:23,488][raid_sprayer][DEBUG]I'm debugging something, I've used 000000049 cans of RAID
+[2016-11-10 21:56:28,290][raid_sprayer][DEBUG]I'm debugging something, I've used 000000050 cans of RAID
+[2016-11-10 21:56:28,464][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:56:38,082][raid_sprayer][DEBUG]I'm debugging something, I've used 000000051 cans of RAID
+[2016-11-10 21:56:38,465][heartbeat][INFO]HEARTBEAT last_module=parrot
+[2016-11-10 21:56:44,813][raid_sprayer][DEBUG]I'm debugging something, I've used 000000052 cans of RAID
+[2016-11-10 21:56:48,470][heartbeat][INFO]HEARTBEAT last_module=rubber_band
+[2016-11-10 21:56:54,476][raid_sprayer][DEBUG]I'm debugging something, I've used 000000053 cans of RAID
+[2016-11-10 21:56:58,475][heartbeat][INFO]HEARTBEAT last_module=monkey
+[2016-11-10 21:57:02,867][raid_sprayer][DEBUG]I'm debugging something, I've used 000000054 cans of RAID

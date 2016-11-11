@@ -53,7 +53,7 @@ def parseLine(logfile):
 		errorMessage = items[3]
 		
 		if levelName == "ERROR":
-			print(line)
+			print(line.rstrip('\n'))
 			global GLOBAL_TOTAL
 			GLOBAL_TOTAL += 1
 			message = """
