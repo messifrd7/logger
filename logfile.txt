@@ -1,5 +1,13 @@
-[2016-11-10 18:02:46,219][asyncio][DEBUG]Using selector: EpollSelector
-[2016-11-10 18:02:46,220][parrot][ERROR]1
-[2016-11-10 18:02:46,220][raid_sprayer][DEBUG]I'm debugging something, I've used 000000001 cans of RAID
-[2016-11-10 18:02:46,220][heartbeat][INFO]HEARTBEAT last_module=rubber_band
-[2016-11-10 18:02:54,770][raid_sprayer][DEBUG]I'm debugging something, I've used 000000002 cans of RAID
+[2016-11-10 18:47:42,148][asyncio][DEBUG]Using selector: EpollSelector
+[2016-11-10 18:47:42,149][heartbeat][INFO]HEARTBEAT last_module=parrot
+[2016-11-10 18:47:42,149][raid_sprayer][DEBUG]I'm debugging something, I've used 000000001 cans of RAID
+[2016-11-10 18:47:42,149][monkey][ERROR]0
+[2016-11-10 18:47:49,718][raid_sprayer][DEBUG]I'm debugging something, I've used 000000002 cans of RAID
+[2016-11-10 18:47:52,152][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 18:47:57,977][raid_sprayer][DEBUG]I'm debugging something, I've used 000000003 cans of RAID
+[2016-11-10 18:48:02,157][heartbeat][INFO]HEARTBEAT last_module=shoes
+[2016-11-10 18:48:07,970][raid_sprayer][DEBUG]I'm debugging something, I've used 000000004 cans of RAID
+[2016-11-10 18:48:12,163][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 18:48:17,148][raid_sprayer][DEBUG]I'm debugging something, I've used 000000005 cans of RAID
+[2016-11-10 18:48:22,169][heartbeat][INFO]HEARTBEAT last_module=ceelo_green
+[2016-11-10 18:48:22,780][raid_sprayer][DEBUG]I'm debugging something, I've used 000000006 cans of RAID
